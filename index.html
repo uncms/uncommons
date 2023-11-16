@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="반응형 웹사이트부터 NFT/블록체인까지! 웹의 현재와 미래, 모든 영역을 개발합니다.">
+    <meta name="keywords" content="언커먼즈, uncommons, NFT, 블록체인, 반응형웹사이트, 웹사이트개발, 웹사이트외주, 랜딩페이지, 아임웹, 윅스, 카페24">
+    
+    <meta property="og:title" content="언커먼즈 UNCOMMONS">
+    <meta property="og:description" content="반응형 웹사이트부터 NFT/블록체인까지! 웹의 현재와 미래, 모든 영역을 개발합니다.">
+    <meta property="og:image" content="/img/thumbnail.png">
+
+    <title>언커먼즈 UNCOMMONS</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/fav/favicon-16x16.png">
+    <link rel="manifest" href="/fav/site.webmanifest">
+    <link rel="mask-icon" href="/fav/safari-pinned-tab.svg" color="#181b18">
+    <meta name="msapplication-TileColor" content="#181b18">
+    <meta name="theme-color" content="#ffffff">
+
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable-dynamic-subset.css"/>
+    
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/portfolio.js"></script>
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-wrapper">
+            <h1><img onclick="home()" class="logo" src="img/logo.png" alt="uncommons.co"></h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#about">회사소개</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">포트폴리오</a>
+                    </li>
+                    <li>
+                        <a href="#process">프로세스</a>
+                    </li>
+                    <li>
+                        <a href="#review">고객후기</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="#contact">문의하기</a>
+        </div>
+    </header>
+
+    <section id="main">
+        <div class="section-wrapper">
+            <div data-aos="fade-up">
+                <img src="img/wecreate.png" alt="WE CREATE">
+                <img src="img/something.png" alt="SOMETHING">
+            </div>
+            <img class="uncommon" src="img/uncommon.png" alt="UNCOMMON" data-aos="fade-up">
+            <img class="astronaut" src="img/astronaut.png" alt="우주비행사" data-aos="fade-up">
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="section-wrapper">
+            <p class="section-tag" data-aos="fade-up">ABOUT</p>
+            <h2 class="section-title" data-aos="fade-up"><span>익숙하지만 새로운</span><br class="pc-hidden"> 웹 경험을 만듭니다</h2>
+            <p class="section-desc" data-aos="fade-up">언커먼즈는 90%의 익숙함 속 10%의 새로움을 추구합니다.
+                <br class="pc-hidden"><br class="pc-hidden"><br class="mo-hidden">반응형 웹사이트부터 NFT/블록체인 프로젝트까지
+                <br class="mo-hidden-2">웹의 현재와 미래, 모든 영역을 전문적으로 개발하고 있습니다.
+            </p>
+            <div class="about-wrapper">
+                <div class="web2" data-aos="fade-up">
+                    <div>
+                        <div>WEB 2.0</div>
+                        <h3>모바일, 태블릿, PC 등 모든 웹 환경에서 <br class="mo-hidden-2">완벽한 UI/UX의 <span>반응형 웹사이트</span></h3>
+                        <a href="#portfolio" onclick="filterPortfolio(1)">↓ 포트폴리오 보기</a>
+                    </div>
+                    <div>
+                        <img src="img/web.png" alt="반응형 웹사이트">
+                    </div>
+                </div>
+                <div class="web3" data-aos="fade-up">
+                    <div>
+                        <div>WEB 3.0</div>
+                        <h3>이더리움, 폴리곤, 클레이튼 네트워크 <br class="mo-hidden-2">기반의 <span>NFT 및 블록체인 프로젝트</span></h3>
+                        <a href="#portfolio" onclick="filterPortfolio(2)">↓ 포트폴리오 보기</a>
+                    </div>
+                    <div>
+                        <img src="img/nft.png" alt="NFT/블록체인">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="section-wrapper">
+            <p class="section-tag" data-aos="fade-up">PORTFOLIO</p>
+            <h2 class="section-title" data-aos="fade-up">작은 회사들을 위한 <br><span>합리적인 개발</span>을 합니다</h2>
+            <div class="portfolio-filter" data-aos="fade-up">
+                <div class="portfolio-filter-item active-filter" onclick="filterPortfolio(0)">전체</div>
+                <div class="portfolio-filter-item" onclick="filterPortfolio(1)">반응형 웹</div>
+                <div class="portfolio-filter-item" onclick="filterPortfolio(2)">NFT/블록체인</div>
+            </div>
+            <div class="portfolio-wrapper">
+            </div>
+            <a href="portfolios" class="view-more" data-aos="fade-up">
+                <div>
+                    <img src="img/emoji_right.png" alt="Emoji Right">
+                    <p>전체 포트폴리오 확인하기</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section id="process">
+        <div class="section-wrapper">
+            <p class="section-tag" data-aos="fade-up">PROCESS</p>
+            <h2 class="section-title" data-aos="fade-up"><span>빠르고 체계적인</span><br class="pc-hidden-2"> 작업 프로세스</h2>
+            <p class="section-desc" data-aos="fade-up">기획 단계부터 디자인, 개발, 후속 관리까지!
+                <br>완성도 있는 결과물을 위해 적극 소통합니다.
+            </p>
+            <div class="process-wrapper">
+                <div data-aos="fade-up">
+                    <div>
+                        <p class="process-step">STEP 1</p>
+                        <h3>기획</h3>
+                        <p class="process-desc">현실적인 개발 리소스와 <br>시장에서의 차별성을 고려하여 <br>최적의 개발안을 제안합니다</p>
+                    </div>
+                    <div class="lottie-container">
+                        <dotlottie-player src="./img/step1.lottie" autoplay loop style="height: 100%; width: 100%;"/>
+                    </div>
+                </div>
+                <div data-aos="fade-up">
+                    <div>
+                        <p class="process-step">STEP 2</p>
+                        <h3>디자인</h3>
+                        <p class="process-desc">다양한 디바이스로 방문하는 <br>유저의 경험을 고려한 <br>UI/UX 디자인을 진행합니다</p>
+                    </div>
+                    <div class="lottie-container">
+                        <dotlottie-player src="./img/step2.lottie" autoplay loop style="height: 100%; width: 100%;"/>
+                    </div>
+                </div>
+                <div data-aos="fade-up">
+                    <div>
+                        <p class="process-step">STEP 3</p>
+                        <h3>개발</h3>
+                        <p class="process-desc">반응형 개발, 크로스 브라우징, <br>트래픽 최적화, SEO, 그 외 <br>다양한 추가 기능을 개발합니다</p>
+                    </div>
+                    <div class="lottie-container">
+                        <dotlottie-player src="./img/step3.lottie" autoplay loop style="height: 100%; width: 100%;"/>
+                    </div>
+                </div>
+                <div data-aos="fade-up">
+                    <div>
+                        <p class="process-step">STEP 4</p>
+                        <h3>후속 관리</h3>
+                        <p class="process-desc">개발 결과물 운용을 위한 <br>가이드와 작업한 소스코드 <br>원본 전체를 제공합니다</p>
+                    </div>
+                    <div class="lottie-container">
+                        <dotlottie-player src="./img/step4.lottie" autoplay loop style="height: 100%; width: 100%;"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="review">
+        <div class="section-wrapper">
+            <p class="section-tag" data-aos="fade-up">REVIEW</p>
+            <h2 class="section-title" data-aos="fade-up">고객님들이 남겨주신 <br class="pc-hidden-2"><span>진짜 후기</span></h2>
+            <div class="review-wrapper">
+                <div class="review-col-1" data-aos="fade-up">
+                    <div class="review-item">
+                        <div class="review-header">
+                            <img src="img/profile.png" alt="프로필 이미지">
+                            <div>
+                                <p>한******</p>
+                                <div>
+                                    <img src="img/star.png" alt="별점">
+                                    <p><span>5.0</span> | 22.08.09</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="review-body">기초적인 질문에도 친절하게 답변주시고 책임감 있게 작업해주셔서 감사드립니다. 작업이 끝난 이후에도 수정사항을 요청드렸는데 AS가 정말 좋습니다.</p>
+                    </div>
+                    <div class="review-item">
+                        <div class="review-header">
+                            <img src="img/profile.png" alt="프로필 이미지">
+                            <div>
+                                <p>아**</p>
+                                <div>
+                                    <img src="img/star.png" alt="별점">
+                                    <p><span>5.0</span> | 23.10.04</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="review-body">돈을 쓴 게 전혀 아깝지가 않습니다. 프로젝트 진행 전, 중, 후 모두 대면 미팅을 하시면서 진행해주셨고, 단순히 개발뿐만 아니라 기획 단계에서의 문제나 보완해야될 부분들을 알려주셔서 진행하기가 정말 수월하였습니다. 마지막에는 사소한 추가기능을 요청드렸는데, 그날 바로 구현하시고 별다른 비용을 청구하시지도 않으셨습니다. 또 다른 프로젝트를 진행해야 한다면 무조건 다시 연락드리고 싶습니다.</p>
+                    </div>
+                    <div class="review-item">
+                        <div class="review-header">
+                            <img src="img/profile.png" alt="프로필 이미지">
+                            <div>
+                                <p>올**</p>
+                                <div>
+                                    <img src="img/star.png" alt="별점">
+                                    <p><span>5.0</span> | 23.05.08</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="review-body">디자인 후의 개발 과정도 정말 빠르시고, 소통하시면서 피드백에 대한 대응도 바로바로 진행해주셔서 결과물이 너무 마음에 듭니다! 개발 외주를 맡기게 된다면 자주 애용할 수 있도록 하겠습니다~</p>
+                    </div>
+                </div>
+                <div class="review-col-2" data-aos="fade-up">
+                    <div class="review-item">
+                        <div class="review-header">
+                            <img src="img/profile.png" alt="프로필 이미지">
+                            <div>
+                                <p>루*********</p>
+                                <div>
+                                    <img src="img/star.png" alt="별점">
+                                    <p><span>5.0</span> | 23.07.05</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="review-body">개발을 마치신 뒤, 본사를 방문하셔서 대면으로 친절하게 버튼 하나 하나 꼼꼼히 설명해주셔서 무사히 프로젝트를 런칭할수 있었습니다. NFT나 블록체인 분야 런칭 관련해서는 1인자이십니다. 앞으로도 많은 후속 프로젝트들을 함께 할 수 있길 고대합니다!</p>
+                    </div>
+                    <div class="review-item">
+                        <div class="review-header">
+                            <img src="img/profile.png" alt="프로필 이미지">
+                            <div>
+                                <p>엡******</p>
+                                <div>
+                                    <img src="img/star.png" alt="별점">
+                                    <p><span>5.0</span> | 22.06.10</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="review-body">계약 전 상담도 친절히 잘해주시고 피드백에 대한 대응도 엄청 빠르십니다. 회사에 직접 방문하셔서 직원에게 사용법도 알려주셔서 감사하였습니다.</p>
+                    </div>
+                    <div class="review-item">
+                        <div class="review-header">
+                            <img src="img/profile.png" alt="프로필 이미지">
+                            <div>
+                                <p>원**</p>
+                                <div>
+                                    <img src="img/star.png" alt="별점">
+                                    <p><span>5.0</span> | 22.06.20</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="review-body">원래 진행하던 개발 업체와 문제가 발생해서 급하게 찾았는데, 이게 웬걸 너무나 만족스럽게 작업을 마무리할 수 있었습니다. 개발 결과물이 마음에 드는거야 두말할 필요가 없었고, 기존 업체에서 발생했던 문제에 대한 피드백도 일목요연하게 알려주셔서 너무 속이 시원하였습니다. 마음 편하게 작업을 맡기고 싶으시다면 무조건 추천드립니다!</p>
+                    </div>
+                </div>
+                <div class="review-col-3" data-aos="fade-up">
+                    <div class="review-item">
+                        <div class="review-header">
+                            <img src="img/profile.png" alt="프로필 이미지">
+                            <div>
+                                <p>공*****</p>
+                                <div>
+                                    <img src="img/star.png" alt="별점">
+                                    <p><span>5.0</span> | 23.05.30</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="review-body">개발에 대해서는 전혀 몰라서 단순히 텍스트와 레퍼런스 사이트로만 기획안을 드렸는데 디자인부터 개발까지 뚝딱! 해주셨습니다. 그리고 작업 과정에서 친절하게 소통을 잘해주셔서 정말 좋았어요. 배포 이후에도 문제에 대한 대응을 요청할 때마다 바로 바로 수정해주시고 너무 만족스럽습니다! 앞으로 사업 번창하세요^^</p>
+                    </div>
+                    <div class="review-item">
+                        <div class="review-header">
+                            <img src="img/profile.png" alt="프로필 이미지">
+                            <div>
+                                <p>테***</p>
+                                <div>
+                                    <img src="img/star.png" alt="별점">
+                                    <p><span>5.0</span> | 23.10.22</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="review-body">예산이 한정되어 있어 최대한 저렴하게 진행하는 방법에 대해 요청드렸는데, 작업 과정을 변경해서 예산에 맞춰주셨어요! 덕분에 저희도 최대한 비용을 세이브하면서 프로젝트를 원할하게 운영할 수 있을 것 같아요. 효율적이고 전문적인 작업 감사드립니다!</p>
+                    </div>
+                    <div class="review-item">
+                        <div class="review-header">
+                            <img src="img/profile.png" alt="프로필 이미지">
+                            <div>
+                                <p>디****</p>
+                                <div>
+                                    <img src="img/star.png" alt="별점">
+                                    <p><span>5.0</span> | 23.06.21</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="review-body">급하게 진행되어야 하는 일정이다보니 작업 중간중간에도 계속해서 내용이 변경되는 수정사항이 많았는데, 정말 원할하게 소통하시면서 작업을 마무리해주셨습니다. 감사합니다!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="section-wrapper">
+            <div class="contact-wrapper">
+                <p class="section-tag" data-aos="fade-up">CONTACT</p>
+                <h2 class="section-title" data-aos="fade-up"><span>상담 및 견적</span>요청</h2>
+                <p class="section-desc" data-aos="fade-up">개발 문의 및 견적 요청을 하시면 <br>빠르고 친절하게 답변드리겠습니다</p>
+                <div class="contact-info" data-aos="fade-up">
+                    <a href="tel:0502-1902-2002" target="_blank">
+                        <div>
+                            <img src="img/call.png" alt="전화">
+                            <p>0502-1902-2002</p>
+                        </div>
+                    </a>
+                    <a href="mailto:contact@uncommons.co?subject=[언커먼즈] 개발 문의 및 견적 요청드립니다." target="_blank">
+                        <div>
+                            <img src="img/email.png" alt="이메일">
+                            <p>contact@uncommons.co</p>
+                        </div>
+                    </a>
+                    <a href="http://pf.kakao.com/_sxirWxj/chat" target="_blank">
+                        <div>
+                            <img src="img/kakaotalk.png" alt="카카오톡 채널">
+                            <p>카카오톡 채널 「언커먼즈」</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <form id="form" data-aos="fade-up">
+                <div class="field">
+                    <label for="name">1. 업체명 *</label>
+                    <input type="text" name="name" id="name" placeholder="업체명을 입력해주세요...">
+                </div>
+                <div class="field">
+                    <label for="email">2. 담당자 이메일 *</label>
+                    <input type="text" name="email" id="email" placeholder="담당자 분의 이메일 주소를 입력해주세요...">
+                </div>
+                <div class="field">
+                    <label for="phone">3. 담당자 전화번호</label>
+                    <input type="text" name="phone" id="phone" placeholder="담당자 분의 전화번호를 입력해주세요...">
+                </div>
+                <div class="field">
+                    <label for="task">4. 개발 작업 내용 *</label>
+                    <textarea style="resize: none;" name="task" id="task" placeholder="맡기시고자 하시는 개발 작업의 내용에 대해 입력해주세요..."></textarea>
+                </div>
+                <div class="field">
+                    <input type="checkbox" name="privacy" id="privacy" checked>
+                    <label for="privacy">개인정보 처리방침에 동의합니다</label>
+                </div>
+                <p>(목적) 상담 | (항목) 업체명, 이메일, 전화번호 | (보유 및 이용기간) 작업 미진행 시 즉시 파기</p>
+                <input type="submit" id="button" value="문의 보내기 →" >
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-wrapper">
+            <p>COPYRIGHT 2023. UNCOMMONS Co. <br class="pc-hidden-2">ALL RIGHTS RESERVED.</p>
+        </div>
+    </footer>
+</body>
+</html>

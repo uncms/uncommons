@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="반응형 웹사이트부터 NFT/블록체인까지! 웹의 현재와 미래, 모든 영역을 개발합니다.">
+    <meta name="keywords" content="언커먼즈, uncommons, NFT, 블록체인, 반응형웹사이트, 웹사이트개발, 웹사이트외주, 랜딩페이지, 아임웹, 윅스, 카페24">
+    
+    <meta property="og:title" content="언커먼즈 UNCOMMONS">
+    <meta property="og:description" content="반응형 웹사이트부터 NFT/블록체인까지! 웹의 현재와 미래, 모든 영역을 개발합니다.">
+    <meta property="og:image" content="/img/thumbnail.png">
+
+    <title>언커먼즈 UNCOMMONS</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/fav/favicon-16x16.png">
+    <link rel="manifest" href="/fav/site.webmanifest">
+    <link rel="mask-icon" href="/fav/safari-pinned-tab.svg" color="#181b18">
+    <meta name="msapplication-TileColor" content="#181b18">
+    <meta name="theme-color" content="#ffffff">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable-dynamic-subset.css"/>
+    
+    <link rel="stylesheet" href="css/style2.css">
+    <script src="js/portfolio.js"></script>
+    <script defer src="js/script2.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-wrapper">
+            <h1><img onclick="home()" class="logo" src="img/logo.png" alt="uncommons.co"></h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="/#about">회사소개</a>
+                    </li>
+                    <li>
+                        <a href="/#portfolio">포트폴리오</a>
+                    </li>
+                    <li>
+                        <a href="/#process">프로세스</a>
+                    </li>
+                    <li>
+                        <a href="/#review">고객후기</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="/#contact">문의하기</a>
+        </div>
+    </header>
+
+    <section id="portfolio">
+        <div class="section-wrapper">
+            <p class="section-tag" data-aos="fade-up">PORTFOLIO</p>
+            <h2 class="section-title" data-aos="fade-up">언커먼즈의 <span>포트폴리오</span></h2>
+            <div class="portfolio-filter" data-aos="fade-up">
+                <div class="portfolio-filter-item active-filter" onclick="filterPortfolio(0)">전체</div>
+                <div class="portfolio-filter-item" onclick="filterPortfolio(1)">반응형 웹</div>
+                <div class="portfolio-filter-item" onclick="filterPortfolio(2)">NFT/블록체인</div>
+            </div>
+            <div class="portfolio-wrapper">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-wrapper">
+            <p>COPYRIGHT 2023. UNCOMMONS Co. <br class="pc-hidden-2">ALL RIGHTS RESERVED.</p>
+        </div>
+    </footer>
+</body>
+</html>
