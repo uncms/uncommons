@@ -54,6 +54,8 @@ function generateProject(_obj){
 
     projectScreenshot.src = "img/" + _obj.screenshot;
     projectScreenshot.alt = _obj.title;
+
+    document.title = "언커먼즈 포트폴리오 - " + _obj.title;
 }
 
 AOS.init({
