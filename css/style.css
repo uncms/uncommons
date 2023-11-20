@@ -289,10 +289,13 @@ nav > ul > li > a:hover{
     border: 1px solid var(--color-line);
     border-radius: 8px;
     padding: var(--size-s);
+}
+
+.about-wrapper > #web2, .about-wrapper > #web3{
     transition: 0.25s;
 }
 
-.about-wrapper > div:hover{
+.about-wrapper > #web2:hover, .about-wrapper > #web3:hover{
     border: 1px solid var(--color-highlight);
 }
 
@@ -482,10 +485,13 @@ nav > ul > li > a:hover{
     padding: var(--size-xs) var(--size-s);
     border-radius: var(--size-l);
     margin-top: var(--size-l);
+}
+
+#view-more{
     transition: 0.25s;
 }
 
-.view-more:hover{
+#view-more:hover{
     filter: drop-shadow(0px 0px 32px #98FF4C66);
 }
 
@@ -540,10 +546,13 @@ nav > ul > li > a:hover{
     background:linear-gradient(135deg, var(--color-black), var(--color-background));
     border: 1px solid var(--color-line);
     border-radius: 8px;
+}
+
+#process-item{
     transition: 0.25s;
 }
 
-.process-wrapper > div:hover{
+#process-item:hover{
     border: 1px solid var(--color-highlight);
 }
 
@@ -626,6 +635,9 @@ dotlottie-player{
     background-color: var(--color-white);
     border-radius: 8px;
     padding: var(--size-xs);
+}
+
+#review-item{
     transition: 0.25s;
 }
 
@@ -684,7 +696,7 @@ dotlottie-player{
     margin-top: var(--size-xs);
 }
 
-.review-item:hover{
+#review-item:hover{
     filter: drop-shadow(0px 0px 32px #98FF4C4D);
 }
 
