@@ -292,7 +292,7 @@ nav > ul > li > a:hover{
 }
 
 .about-wrapper > #web2, .about-wrapper > #web3{
-    transition: 0.25s;
+    transition: 1s;
 }
 
 .about-wrapper > #web2:hover, .about-wrapper > #web3:hover{
@@ -348,7 +348,7 @@ nav > ul > li > a:hover{
     height: 210px;
     object-fit: contain;
     object-position: center;
-    transition: 0.25s;
+    transition: 1s;
 }
 
 /* ---------------- PORTFOLIO 영역 ---------------- */
@@ -488,7 +488,7 @@ nav > ul > li > a:hover{
 }
 
 #view-more{
-    transition: 0.25s;
+    transition: 1s;
 }
 
 #view-more:hover{
@@ -549,7 +549,7 @@ nav > ul > li > a:hover{
 }
 
 #process-item{
-    transition: 0.25s;
+    transition: 1s;
 }
 
 #process-item:hover{
@@ -557,7 +557,7 @@ nav > ul > li > a:hover{
 }
 
 dotlottie-player{
-    transition: 0.25s;
+    transition: 1s;
 }
 
 .process-wrapper > div:hover .lottie-container > dotlottie-player{
@@ -638,7 +638,7 @@ dotlottie-player{
 }
 
 #review-item{
-    transition: 0.25s;
+    transition: 1s;
 }
 
 .review-header{
@@ -851,7 +851,7 @@ input[type="submit"] {
     cursor: pointer;
     padding: 16px 32px;
     margin-top: var(--size-s);
-    transition: 0.25s;
+    transition: 1s;
 }
 
 input[type="submit"]:hover {
