@@ -501,4 +501,8 @@ footer{
     .pc-hidden-2{
         display: block;
     }
+    
+    .footer-wrapper > p > span{
+        display: none;
+    }
 }

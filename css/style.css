@@ -1274,4 +1274,8 @@ footer{
         grid-template-columns: 1fr;
     }
 
+    .footer-wrapper > p > span{
+        display: none;
+    }
+
 }
